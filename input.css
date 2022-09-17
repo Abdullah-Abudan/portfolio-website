@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .form-short{
+    @apply ring-1 ring-indigo-300 w-full md:w-1/2 h-12 px-2  outline-none dark:bg-slate-800 dark:text-white dark:ring-0;
+  }
+  .a-short{
+    @apply text-sm text-black leading-10 font-normal tracking-[1px] uppercase duration-500 ease-in-out hover:text-indigo-900;
+  }
+}
+
+@import url("https://use.typekit.net/rxp3vkt.css");
+
+  *{
+    font-family:  source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
